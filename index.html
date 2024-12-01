@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Film Tube </title>
+  <!-- Linking Unicons For Icons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="sidebar-hidden">
+  <div class="container">
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="nav-section nav-left">
+          <button class="nav-button menu-button">
+            <i class="uil uil-bars"></i>
+          </button>
+          <a href="#" class="nav-logo">
+            <img src="img/logo.png" alt="Logo" class="logo-image">
+            <h2 class="logo-text">Film Hub</h2>
+          </a>
+        </div>
+        
+        <div class="nav-section nav-center">
+          <form action="#" class="search-form">
+            <input type="search" id="srch" placeholder="Search a film here..." class="search-input" required>
+            <button class="nav-button search-button">
+              <i class="uil uil-search"></i>
+            </button>
+          </form>
+          <button class="nav-button mic-button">
+            <i class="uil uil-microphone"></i>
+          </button>
+        </div>
+        
+        <div class="nav-section nav-right">
+          <button class="nav-button search-button">
+            <i class="uil uil-search"></i>
+          </button>
+          <button class="nav-button theme-button">
+            <i class="uil uil-moon"></i>
+          </button>
+          <img src="img/user.jpg" alt="User Image" class="user-image">
+        </div>
+      </nav>
+    </header>
+    
+    <!-- Main Layout -->
+    <main class="main-layout">
+      <div class="screen-overlay"></div>
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="nav-section nav-left">
+          <button class="nav-button menu-button">
+            <i class="uil uil-bars"></i>
+          </button>
+          <a href="#" class="nav-logo">
+            <img src="img/logo.png" alt="Logo" class="logo-image">
+            <h2 class="logo-text">Film Hub</h2>
+          </a>
+        </div>
+  
+        <div class="links-container">
+          <div class="link-section">
+            <a href="index.html" class="link-item active">
+              <i class="uil uil-estate "></i> Home
+            </a>
+            <a href="https://web-express-1.netlify.app/" class="link-item">
+              <i class="uil uil-video"></i> About
+            </a>
+            <a href="https://web-express-1.netlify.app/" class="link-item">
+              <i class="uil uil-tv-retro"></i> Contact
+            </a>
+          </div>
+          <div class="section-separator"></div>
+
+          <div class="link-section">
+            <h4 class="section-title">You</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-user-square"></i> ඔබට අවශ්‍ය ෆිල්ම් බාගත<br> කිරීමට ෆිල්ම් එක මත Click <br> කරන්න
+            </a>
+            <a href="https://wa.me/0714679835" class="link-item">
+              <i class="uil uil-history"></i> පැමිණිලි සදහා click කරන්න
+            </a>
+            <a href="https://wa.me/0714679835" class="link-item">
+              <i class="uil uil-clock"></i> ඔබට අවශ්‍ය ෆිල්ම් මෙහි <br> නැත්තම් සදහා click <br> කරන්න පැය 24ක් <br> ඇතුලත එය ලැබෙනු ඇත.
+            </a>
+          </div>
+          <div class="section-separator"></div>
+        </div>
+      </aside>
+  
+      <div class="content-wrapper" id="items">
+        <!-- Category List -->
+        <div class="category-list" style="text-align: center; margin-left:auto;margin-right:auto">
+          <style>
+            .category-button {
+              text-align: center;
+            }
+          </style>
+          <a href="index.html"><button class="category-button active">Home</button></a>
+          <a href="hot.html"><button class="category-button">18+ Hot</button></a>
+          <a href="zombie.html"><button class="category-button">Zombie</button></a>
+          <a href="horror.html"><button class="category-button">Horror</button></a>
+          <a href="2024-released.html"><button class="category-button">2024 Released</button></a>
+          <a href="Movies.html"><button class="category-button">Movies</button></a>
+          <a href="tv-shows.html"><button class="category-button">TV Shows</button></a>
+          <a href="episodes.html"><button class="category-button">Episodes</button></a>
+          <a href="english.html"><button class="category-button">English</button></a>
+          <a href="malayalam.html"><button class="category-button">Malayalam</button></a>
+          <a href="korean.html"><button class="category-button">Korean</button></a>
+
+        </div>
+        
+        <style>
+          .links-container a, .channel-name a{
+            text-decoration: none;
+            color: bisque;
+            font-size: 17px;
+            border: 2px solid green;
+          }
+        </style>
+        <!-- Video List -->
+          <div class="video-list">
+            <div class="video-card ">
+              <a href="film/Premalu (2024) Malayalam WEB-DL - 480P.mkv">
+                <div class="thumbnail-container">
+                  <img src="img/premalu.png" alt="Video Thumbnail" class="thumbnail">
+                  <p class="duration">2:34:46</p>
+                </div>
+              </a>
+                <div class="video-info">
+                  <img src="img/logo.png" alt="Channel Logo" class="icon">
+                  <div class="video-details item">
+                    <h2 class="title"  >Premalu (2024) Malayalam 480P</h2>
+                    <p class="channel-name"><a href="film/Premalu (2024) Malayalam WEB-DL - 480P.mkv" download>Download</a></p>
+                    <p class="views">987MB • 2024</p>
+                  </div>
+                </div>
+            </div>
+            <div class="video-card ">
+              <a href="film/The Beekeeper (2024) English 480p.mkv">
+                <div class="thumbnail-container">
+                  <img src="img/beekeeper.png" alt="Video Thumbnail" class="thumbnail">
+                  <p class="duration">1:45:14</p>
+                </div>
+              </a>
+                <div class="video-info">
+                  <img src="img/logo.png" alt="Channel Logo" class="icon">
+                  <div class="video-details item">
+                    <h2 class="title"  >The Beekeeper (2024) English 480p</h2>
+                    <p class="channel-name"><a href="film/The Beekeeper (2024) English 480p.mkv" download>Download</a></p>
+                    <p class="views">670MB • 2024</p>
+                  </div>
+                </div>
+            </div>
+            <div class="video-card ">
+              <a href="film/The Wild Robot 2024) English WEBRip - 1080p.mkv">
+                <div class="thumbnail-container">
+                  <img src="img/wild-robot.png" alt="Video Thumbnail" class="thumbnail">
+                  <p class="duration">1:41:46</p>
+                </div>
+              </a>
+                <div class="video-info">
+                  <img src="img/logo.png" alt="Channel Logo" class="icon">
+                  <div class="video-details item">
+                    <h2 class="title"  >The Wild Robot 2024 English  - 1080p</h2>
+                    <p class="channel-name"><a href="film/The Wild Robot 2024) English WEBRip - 1080p.mkv" download>Download</a></p>
+                    <p class="views">2.45GB • 2024</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+
+          <br>
+          <div class="f-catogery">
+            <div class="video-list">
+              <a href="#" class="video-card">
+                <div class="video-info">
+                  <div class="video-details">
+                    <div style="display: flex;">
+                      <h2 class="title">2024 Released</h2>
+                    </div>
+                    <p class="views">3 Films • in this year</p>
+                    <div class="category-list">
+                      <a href="2024-released.html"><button class="category-button category-list">View All</button></a>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="category-list-b f-catogery">
+            <div class="video-list">
+              <div class="video-card ">
+                <a href="film/Premalu (2024) Malayalam WEB-DL - 480P.mkv">
+                  <div class="thumbnail-container">
+                    <img src="img/premalu.png" alt="Video Thumbnail" class="thumbnail">
+                    <p class="duration">2:34:46</p>
+                  </div>
+                </a>
+                  <div class="video-info">
+                    <img src="img/logo.png" alt="Channel Logo" class="icon">
+                    <div class="video-details item">
+                      <h2 class="title"  id="search">Premalu (2024) Malayalam</h2>
+                      <p class="channel-name"><a href="film/Premalu (2024) Malayalam WEB-DL - 480P.mkv" download>Download</a></p>
+                      <p class="views">987MB • 2024</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="video-card ">
+                <a href="film/The Beekeeper (2024) English 480p.mkv">
+                  <div class="thumbnail-container">
+                    <img src="img/beekeeper.png" alt="Video Thumbnail" class="thumbnail">
+                    <p class="duration">1:45:14</p>
+                  </div>
+                </a>
+                  <div class="video-info">
+                    <img src="img/logo.png" alt="Channel Logo" class="icon">
+                    <div class="video-details item">
+                      <h2 class="title"  >The Beekeeper (2024) English 480p</h2>
+                      <p class="channel-name"><a href="film/The Beekeeper (2024) English 480p.mkv" download>Download</a></p>
+                      <p class="views">670MB • 2024</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="video-card ">
+                <a href="film/The Wild Robot 2024) English WEBRip - 1080p.mkv">
+                  <div class="thumbnail-container">
+                    <img src="img/wild-robot.png" alt="Video Thumbnail" class="thumbnail">
+                    <p class="duration">1:41:46</p>
+                  </div>
+                </a>
+                  <div class="video-info">
+                    <img src="img/logo.png" alt="Channel Logo" class="icon">
+                    <div class="video-details item">
+                      <h2 class="title"  >The Wild Robot 2024 English  - 1080p</h2>
+                      <p class="channel-name"><a href="film/The Wild Robot 2024) English WEBRip - 1080p.mkv" download>Download</a></p>
+                      <p class="views">2.45GB • 2024</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <br><br>
+
+
+
+          
+
+          <div class="f-catogery">
+            <div class="video-list">
+              <a href="#" class="video-card">
+                <div class="video-info">
+                  <div class="video-details">
+                    <div style="display: flex;text-align: center;">
+                      <h2 class="title" style="text-align: center;">Movies</h2>
+                    </div>
+                    <p class="views">6 Movies • Movies</p>
+                    <div class="category-list">
+                      <a href="Movies.html"> <button class="category-button category-list">View All</button></a>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="category-list-b f-catogery">
+            <div class="video-list">
+              <div class="video-card ">
+                <a href="film/Free Guy (2021) English 720p.kmv">
+                  <div class="thumbnail-container">
+                    <img src="img/free-guy.jpg" alt="Video Thumbnail" class="thumbnail">
+                    <p class="duration">1:54:58</p>
+                  </div>
+                </a>
+                  <div class="video-info">
+                    <img src="img/logo.png" alt="Channel Logo" class="icon">
+                    <div class="video-details item">
+                      <h2 class="title"  >Free Guy (2021) English 720p</h2>
+                      <p class="channel-name"><a href="film/Free Guy (2021) English 720p.mp4" download>Download</a></p>
+                      <p class="views">1.28GB • 2021</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="video-card ">
+                <a href="film/The.Good.Dinosaur.2015.720p.mkv">
+                  <div class="thumbnail-container">
+                    <img src="img/good-dinosaur.png" alt="Video Thumbnail" class="thumbnail">
+                    <p class="duration">1:33:23</p>
+                  </div>
+                </a>
+                  <div class="video-info">
+                    <img src="img/logo.png" alt="Channel Logo" class="icon">
+                    <div class="video-details item">
+                      <h2 class="title"  >The.Good.Dinosaur.2015.720p</h2>
+                      <p class="channel-name"><a href="film/The.Good.Dinosaur.2015.720p.mkv" download>Download</a></p>
+                      <p class="views">702MB • 2015</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="video-card ">
+                <a href="film/Interstellar 2014 720p.mkv">
+                  <div class="thumbnail-container">
+                    <img src="img/interstellar.png" alt="Video Thumbnail" class="thumbnail">
+                    <p class="duration">1:41:46</p>
+                  </div>
+                </a>
+                  <div class="video-info">
+                    <img src="img/logo.png" alt="Channel Logo" class="icon">
+                    <div class="video-details item">
+                      <h2 class="title"  >Interstellar 2014 720p</h2>
+                      <p class="channel-name"><a href="film/Interstellar 2014 720p.mkv" download>Download</a></p>
+                      <p class="views">1.30GB • 2014</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <br><br>
+
+
+
+
+
+
+          <div class="f-catogery">
+            <div class="video-list">
+              <a href="#" class="video-card">
+                <div class="video-info">
+                  <div class="video-details">
+                    <div style="display: flex;text-align: center;">
+                      <h2 class="title" style="text-align: center;">TV Shows</h2>
+                    </div>
+                    <p class="views">123 Movies • 9 months ago</p>
+                    <div class="category-list">
+                      <a href="#"><button class="category-button category-list">View All</button></a>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="category-list-b f-catogery">
+            <div class="video-list">
+              <div class="video-card ">
+                <a href="film/Free Guy (2021) English 720p.mp4">
+                  <div class="thumbnail-container">
+                    <img src="film/free-guy.jpg" alt="Video Thumbnail" class="thumbnail">
+                    <p class="duration">1:54:58</p>
+                  </div>
+                </a>
+                  <div class="video-info">
+                    <img src="img/logo.png" alt="Channel Logo" class="icon">
+                    <div class="video-details item">
+                      <h2 class="title"  >Free Guy (2021) English 720p</h2>
+                      <p class="channel-name"><a href="film/Free Guy (2021) English 720p.mp4" download>Download</a></p>
+                      <p class="views">27K Views • 2021</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="video-card ">
+                <a href="film/The Beekeeper (2024) English 480p.mp4">
+                  <div class="thumbnail-container">
+                    <img src="film/beekeeper.png" alt="Video Thumbnail" class="thumbnail">
+                    <p class="duration">1:45:14</p>
+                  </div>
+                </a>
+                  <div class="video-info">
+                    <img src="img/logo.png" alt="Channel Logo" class="icon">
+                    <div class="video-details item">
+                      <h2 class="title"  >The Beekeeper (2024) English 480p</h2>
+                      <p class="channel-name"><a href="film/The Beekeeper (2024) English 480p.mp4" download>Download</a></p>
+                      <p class="views">27K Views • 2021</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="video-card ">
+                <a href="film/The Wild Robot 2024) English WEBRip - 1080p.mp4">
+                  <div class="thumbnail-container">
+                    <img src="film/wild-robot.png" alt="Video Thumbnail" class="thumbnail">
+                    <p class="duration">1:41:46</p>
+                  </div>
+                </a>
+                  <div class="video-info">
+                    <img src="img/logo.png" alt="Channel Logo" class="icon">
+                    <div class="video-details item">
+                      <h2 class="title"  >The Wild Robot 2024 English  - 1080p</h2>
+                      <p class="channel-name"><a href="film/The Wild Robot 2024) English WEBRip - 1080p.mp4" download>Download</a></p>
+                      <p class="views">27K Views • 2024</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <br><br>
+
+
+
+
+
+          <div class="f-catogery">
+            <div class="video-list">
+              <a href="#" class="video-card">
+                <div class="video-info">
+                  <div class="video-details">
+                    <div style="display: flex;text-align: center;">
+                      <h2 class="title" style="text-align: center;">Episodes</h2>
+                    </div>
+                    <p class="views">123 Movies • Episodes</p>
+                    <div class="category-list">
+                      <a href="episodes.html"><button class="category-button category-list">View All</button></a>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="category-list-b f-catogery">
+            <div class="video-list">
+              <div class="video-card ">
+                <a href="episodes/Chernobyl.S01E01.1.23.45.720p.WEB-HD.x265.HEVC-Pahe.in.mkv">
+                  <div class="thumbnail-container">
+                    <img src="img/chernobyl.png" alt="Video Thumbnail" class="thumbnail">
+                    <p class="duration">1:00:11</p>
+                  </div>
+                </a>
+                  <div class="video-info">
+                    <img src="img/logo.png" alt="Channel Logo" class="icon">
+                    <div class="video-details item">
+                      <h2 class="title"  >Chernobyl S01 E01 720p</h2>
+                      <p class="channel-name"><a href="episodes/Chernobyl.S01E01.1.23.45.720p.WEB-HD.x265.HEVC-Pahe.in.mkv" download>Download</a></p>
+                      <p class="views">237MB •</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="video-card ">
+                <a href="episodes/01. The Fast and the Furious (2001)/The.Fast.and.the.Furious.2001.720p.BrRip.x264.YIFY+HI.mkv">
+                  <div class="thumbnail-container">
+                    <img src="img/The Fast and the Furious -1.png" alt="Video Thumbnail" class="thumbnail">
+                    <p class="duration">1:46:51</p>
+                  </div>
+                </a>
+                  <div class="video-info">
+                    <img src="img/logo.png" alt="Channel Logo" class="icon">
+                    <div class="video-details item">
+                      <h2 class="title"  > The Fast and the Furious (2001). 720p E1</h2>
+                      <p class="channel-name"><a href="episodes/01. The Fast and the Furious (2001)/The.Fast.and.the.Furious.2001.720p.BrRip.x264.YIFY+HI.mkv" download>Download</a></p>
+                      <p class="views">650MB • 2001</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="video-card ">
+                <a href="episodes/Farzi.S01E01.mkv">
+                  <div class="thumbnail-container">
+                    <img src="img/ferzi.png" alt="Video Thumbnail" class="thumbnail">
+                    <p class="duration">00:59:22</p>
+                  </div>
+                </a>
+                <div class="video-info">
+                  <img src="img/logo.png" alt="Channel Logo" class="icon">
+                  <div class="video-details item">
+                    <h2 class="title"  >Farzi S01 E01 </h2>
+                    <p class="channel-name"><a href="episodes/Farzi.S01E01.mkv" >Download</a></p>
+                    <p class="views">397 MB •</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <br><br>
+
+
+
+
+
+
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Linking custom script -->
+  <script src="script.js"></script>
+</body>
+</html>
